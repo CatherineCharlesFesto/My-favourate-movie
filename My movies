@@ -1,0 +1,58 @@
+<html>
+    <header>
+        <title>MyFavorate movies</title>
+        <style>
+             .topnav{
+                background-color:plum;
+            }
+            .topnav a.active{
+                color: rgb(226, 89, 43);
+                background-color: aqua;
+            }
+            .topnav a{
+                padding: 16px 18px;
+                text-align: center;
+                color: brown;
+                font-size: 15px;
+            }
+            .topnav a:hover{
+                color: yellow;
+                background-color: aqua;
+            }
+            .carousel-container {
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+height: 300px; /* Adjust based on your image height */
+/* Hide all slide by default */}
+.myslide {
+display: none;
+max-height: 100%; /* Ensure images fit within container */
+max-width: 100%;
+
+}
+        </style>
+    </header>
+    <body>
+        <div class="topnav">
+            <a class="active" href="#home">home</a>
+            <a href="#">SINGER1</a>
+            <a href="#">SINGER2</a>
+            <a href="#">SINGER3</a>
+            <a href="#">SINGER5</a>
+        </div>
+        <div class="carousel-container">
+            <img class="myslide" src="unnamed.jpg" height="1000" width="1000">
+            <img class="myslide"src="0.jpg" height="1000" width="1000">
+            <img class="myslide" src="Blackpink-Getty-02.webp" height="1000" width="1000">
+            <img class="myslide" src="download.jpg" height="1000" width="1000">
+            <img class="myslide" src="bts-members-1-03a9c478f1794c448bcb5f74bf94812c.jpg" height="1000" width="1000">
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
