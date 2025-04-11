@@ -40,10 +40,10 @@ max-width: 100%;
     <body>
         <div class="topnav">
             <a class="active" href="#home">home</a>
-            <a href="#">SINGER1</a>
-            <a href="#">SINGER2</a>
-            <a href="#">SINGER3</a>
-            <a href="#">SINGER5</a>
+            <a href="SINGER1.html">SINGER1</a>
+            <a href="SINGER2.html">SINGER2</a>
+            <a href="SINGER3.html">SINGER3</a>
+            <a href="SINGER4.html">SINGER4</a>
         </div>
         <div class="carousel-container">
             <img class="myslide" src="unnamed.jpg" height="1000" width="1000">
